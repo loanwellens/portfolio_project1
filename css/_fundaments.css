@@ -1,0 +1,42 @@
+/*  IMPORT GOOGLE FONTS */
+/*  Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*  Bricolage Grotesque */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+:root {
+    /*  VARIABELEN  */
+    /*  Tekstkleur  */
+    --main-text-color: #121212;
+
+    /*  Primaire kleuren    */
+    --primary-color: #006868;
+    --primary-color-hover: #004949;
+
+    /*  Secundaire kleuren  */
+    --secondary-color01: #EE79AB;
+    --secondary-color02: #E96736;
+    --secondary-color03: #FFBE58;
+    --secondary-color04: #2A8AD9;
+
+    /*  Neutrals    */
+    --neutral-color01: #ffffff;
+    --neutral-color02: #F3EBE0;
+
+    /*  Font-family */
+    --font-family-p: 'Inter', Arial, sans-serif;
+    --font-family-h: 'Bricolage Grotesque', Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family-p);
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+
+h1 {
+    font-family: var(--font-family-h);
+    font-size: 32px;
+    font-weight: 800;
+}
