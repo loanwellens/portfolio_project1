@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
+        exclude:
+          - .github/**
+          - .gitignore
+          - README.md
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -20,7 +24,3 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /www/project1/
-          exclude:
-            - .github/**
-            - .gitignore
-            - README.md
