@@ -1,0 +1,61 @@
+.nav_wrapper {
+    position: sticky;
+    top: 0;
+    width: 100%; /*Volledige schermbreedte innemen*/
+    
+    background: var(--neutral-color01);
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-between; /*Log en menu zo ver mogelijk van elkaar zetten*/
+    align-items: center; /* Verticaal centreren*/
+    padding: 16px 72px 8px 72px;
+}
+
+.nav_logo {
+    width: 56px;
+
+    /* background: teal; */
+}
+
+.nav_menu {
+    list-style-type: none; /*Opsommingsteken verwijderen*/
+    display: flex;
+    gap: 8px;
+
+    /* background-color: lightblue; */
+}
+
+.menu_item {
+    padding: 8px 16px;
+
+    /* background-color: aquamarine; */
+}
+
+.item_link {
+    text-decoration: none; /*Onderlijning verwijderen*/
+    color: (var(--main-text-color));
+    position: relative;
+}
+
+/*  Onderlijn animatie bij hover*/
+.item_link::after{
+    content: ""; /*Niks achter tekst achter het menu item plakken*/
+    position: absolute; /* Lijntje plaatsen gebaseerd op locatie van het item met position relative*/
+    background-color: var(--primary-color); /* Kleur lijntje */
+    height: 2px; /* Hoogte lijntje */
+    width: 0; /* width: 0 = lijntje nog niet zichtbaar*/
+    left: 0;
+    bottom: -8px; /*Plaats tussen link item en lijntje */
+    border-radius: 2px;
+    transition: 0.25s ease-in;
+}
+
+.item_link:hover::after{ 
+    width: 100%; /*width:100% lijntje tonen*/
+}
+
+.item_link:active {
+    color: var(--primary-color);
+}
