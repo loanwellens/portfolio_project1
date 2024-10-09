@@ -9,6 +9,7 @@
     /*  VARIABELEN  */
     /*  Tekstkleur  */
     --main-text-color: #121212;
+    --secondary-text-color: #ffffff;
 
     /*  Primaire kleuren    */
     --primary-color: #006868;
@@ -23,6 +24,7 @@
     /*  Neutrals    */
     --neutral-color01: #ffffff;
     --neutral-color02: #F3EBE0;
+    --neutral-color03: #121212;
 
     /*  Font-family */
     --font-family-p: 'Inter', Arial, sans-serif;
@@ -31,12 +33,10 @@
 
 body {
     font-family: var(--font-family-p);
-    font-size: 16px;
+    font-size: 18px;
     color: var(--main-text-color);
 }
 
-h1 {
+h1, h2{
     font-family: var(--font-family-h);
-    font-size: 32px;
-    font-weight: 800;
 }

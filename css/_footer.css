@@ -1,0 +1,42 @@
+footer {
+    position: relative;
+    height: 128px;
+    padding: 0 72px;
+    font-size: 16px;
+    background-color: var(--neutral-color03);
+    color: var(--secondary-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    position: absolute;
+    right: 40px;
+    top: -132px;
+    rotate: 96deg;
+}
+
+footer .socials {
+    display: flex;
+    gap: 16px;
+}
+
+footer .socials a svg {
+    fill: var(--neutral-color01);
+}
+
+.socials a:nth-child(1) svg:hover {
+    transition: ease-in-out 0.2s;
+    fill: var(--secondary-color01);
+}
+
+.socials a:nth-child(2) svg:hover {
+    transition: ease-in-out 0.2s;
+    fill: var(--secondary-color03);
+}
+
+.socials a:nth-child(3) svg:hover {
+    transition: ease-in-out 0.2s;
+    fill: var(--secondary-color04);
+}

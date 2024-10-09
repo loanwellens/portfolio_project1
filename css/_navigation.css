@@ -1,9 +1,19 @@
+<<<<<<< HEAD
+=======
+/*  NAVIGATIE */
+>>>>>>> dev
 .nav_wrapper {
     position: sticky;
     top: 0;
     width: 100%; /*Volledige schermbreedte innemen*/
+<<<<<<< HEAD
     
     background: var(--neutral-color01);
+=======
+    z-index: 1; /*Navigatiebalk bovenop alles plaatsen*/
+
+    background-color: var(--neutral-color01);
+>>>>>>> dev
 }
 
 .nav {
@@ -16,7 +26,11 @@
 .nav_logo {
     width: 56px;
 
+<<<<<<< HEAD
     /* background: teal; */
+=======
+    /* background-color: teal; */
+>>>>>>> dev
 }
 
 .nav_menu {
