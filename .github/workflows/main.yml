@@ -8,8 +8,6 @@ name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
-    exclude:
-      - README.md
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
