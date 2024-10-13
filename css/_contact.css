@@ -95,6 +95,7 @@ textarea {
 }
 
 input[type=submit] {
+    width: 50%;
     color: var(--primary-color);
     background-color: var(--neutral-color01);
     border: none;
@@ -106,6 +107,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     transition: ease-in-out 0.2s;
+    width: 50%;
     border: 2px solid var(--neutral-color01);
     background-color: transparent;
     color: var(--neutral-color01);
