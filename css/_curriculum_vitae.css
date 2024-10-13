@@ -72,7 +72,7 @@ body {
     margin: 0 8px;
 }
 
-.cv_column1_opleiding ol, .cv_column1_skills ul, .cv_column1_talen ul, .cv_column2 ol{
+.cv_column1_opleiding ol, .cv_column1_skills ul, .cv_column2 ol, .cv_column1_talen ul {
     margin: 0;
     padding-left: 24px;
 }
