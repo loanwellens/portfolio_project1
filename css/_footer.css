@@ -1,6 +1,7 @@
 footer {
     position: relative;
     height: 128px;
+    margin-top: 160px;
     padding: 0 72px;
     font-size: 16px;
     background-color: var(--neutral-color03);
