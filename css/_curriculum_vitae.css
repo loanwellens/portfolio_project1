@@ -72,13 +72,24 @@ body {
     margin: 0 8px;
 }
 
-.cv_column1_opleiding ol li, .cv_column2 ol li{
-    list-style-image: url("../assets/svg/list_style_type.svg");
-    margin-bottom: 24px;
+.cv_column1_opleiding ol, .cv_column1_skills ul, .cv_column1_talen ul, .cv_column2 ol{
+    margin: 0;
+    padding-left: 24px;
 }
 
-.cv_column1_opleiding ol li p, .cv_column2 ol li {
-    margin: 0 0 0 8px;
+.cv_column1_opleiding ol li, 
+.cv_column2 ol li, 
+.cv_column1_talen ul li {
+    list-style-image: url("../assets/svg/list_style_type.svg");
+    margin-bottom: 16px;
+
+    /* background-color: aquamarine; */
+}
+
+.cv_column1_opleiding ol li div, 
+.cv_column2 ol li div, 
+.cv_column1_talen ul li {
+    margin-left: 8px;
 }
 
 .cv_column1_skills ul {
@@ -94,4 +105,4 @@ body {
     padding: 2px 8px;
     margin-bottom: 8px;
     margin-right: 4px;
-}
+} 
