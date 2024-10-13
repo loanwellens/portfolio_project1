@@ -1,0 +1,29 @@
+.gradient1 {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: radial-gradient(farthest-corner at 95% 50%, rgba(238, 121, 171, 0.2), transparent, transparent);
+}
+
+.gradient2 {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: -8%;
+    z-index: -1;
+    background: radial-gradient(farthest-corner at 4% 50%, rgba(255, 190, 88, 0.2), transparent, transparent);
+
+}
+
+.gradient3 {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    bottom: 5%;
+    z-index: -1;
+    background: radial-gradient(rgba(42, 138, 217, 0.2), transparent, transparent);
+}
