@@ -92,7 +92,8 @@ input:focus, textarea:focus {
 
 textarea {
     height: 160px;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 input[type=submit] {
