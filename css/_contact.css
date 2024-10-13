@@ -1,0 +1,112 @@
+body {
+    position: relative;
+}
+
+.contact_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+
+    /* background-color: khaki; */
+}
+
+.contact {
+    width: 70%;
+
+    /* background-color: rebeccapurple; */
+}
+
+.contact_content {
+    margin-top: 56px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 64px;
+    padding: 72px 56px;
+    background-color: var(--primary-color);
+}
+
+.postalstamp {
+    position: absolute;
+    rotate: 3deg;
+    right: 6%;
+    top: 8%;
+}
+
+.content_socialemedia {
+    color: white;
+}
+
+.content_socialemedia a{
+    text-decoration: 2px underline wavy var(--secondary-color01);
+    color: var(--neutral-color02);
+    padding: 8px 2px;
+}
+
+.content_socialemedia a:hover{
+    text-decoration: 2px underline wavy var(--secondary-color01);
+    color: var(--primary-color);
+    background-color: var(--neutral-color01);
+}
+
+.divider {
+    height: 640px;
+    border: 1px solid var(--neutral-color02);
+}
+
+form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.form_name {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+label {
+    color: var(--neutral-color02);
+}
+
+input, textarea{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--neutral-color01);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+    height: 160px;
+}
+
+input[type=submit] {
+    color: var(--primary-color);
+    background-color: var(--neutral-color01);
+    border: none;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+input[type=submit]:hover {
+    transition: ease-in-out 0.2s;
+    border: 2px solid var(--neutral-color01);
+    background-color: transparent;
+    color: var(--neutral-color01);
+}
