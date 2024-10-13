@@ -1,0 +1,97 @@
+body {
+    position: relative;
+}
+
+.gradient1 {
+    position: absolute;
+    height: 1200px;
+    width: 1200px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: radial-gradient(farthest-corner at 95% 50%, rgba(238, 121, 171, 0.2), transparent, transparent);
+}
+
+.gradient2 {
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+    z-index: -1;
+    background: radial-gradient(farthest-corner at 4% 50%, rgba(255, 190, 88, 0.2), transparent, transparent);
+
+}
+
+.gradient3 {
+    position: absolute;
+    height: 1200px;
+    width: 1200px;
+    left: 10%;
+    bottom: 5%;
+    z-index: -1;
+    background: radial-gradient(rgba(42, 138, 217, 0.2), transparent, transparent);
+}
+
+.cv_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cv {
+    width: 70%;
+    display: flex;
+    gap: 120px;
+    margin-top: 72px;
+
+    /* background-color: yellowgreen; */
+}
+
+.cv_column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    /* background-color: rebeccapurple; */
+}
+
+.cv_tijdspanne {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.cv_clarification {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 8px;
+    color: var(--secondary-color04);
+}
+
+.vertical_line {
+    color: var(--secondary-color02);
+    margin: 0 8px;
+}
+
+.cv_column1_opleiding ol li, .cv_column2 ol li{
+    list-style-image: url("../assets/svg/list_style_type.svg");
+    margin-bottom: 24px;
+}
+
+.cv_column1_opleiding ol li p, .cv_column2 ol li {
+    margin: 0 0 0 8px;
+}
+
+.cv_column1_skills ul {
+    list-style-type: none;
+    max-width: 500px;
+    padding: 0;
+}
+
+.cv_column1_skills ul li {
+    display: inline-block;
+    border: 1px solid var(--secondary-color03);
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
