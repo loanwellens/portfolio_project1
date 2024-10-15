@@ -1,0 +1,169 @@
+.over_mij{
+    width: 70%;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "inleiding_content inleiding_content inleiding_img"
+                        "hobbys_content_section1 hobbys_content_section1 inleiding_img"
+                        "hobbys_img hobbys_content_section2 hobbys_content_section2"
+                        "hobbys_img hobbys_content_section3 hobbys_content_section3"
+                        "hobbys_content_section4 hobbys_content_section4 hobbys_content_section4"
+                        "hobbys_content_section5 hobbys_content_section5 hobbys_content_section5"
+                        "hobbys_content_section6 hobbys_content_section6 hobbys_content_section6"
+                        "muziek muziek muziek";
+
+    /* background-color: yellow; */
+}
+
+.inleiding_img {
+    grid-area: inleiding_img;
+
+    /* background-color: pink; */
+}
+
+.inleiding_content {
+    grid-area: inleiding_content;
+    margin-right: 32px;
+    margin-bottom: 40px;
+    /* background-color: khaki; */
+}
+
+.hobbys_img {
+    grid-area: hobbys_img;
+
+    /* background-color: peru; */
+}
+
+.hobbys_content_section1 {
+    grid-area: hobbys_content_section1;
+    margin-right: 32px;
+    margin-bottom: 16px;
+
+    /* background-color: tomato; */
+}
+
+.hobbys_content_section2 {
+    grid-area: hobbys_content_section2;
+    margin-bottom: 8px;
+
+    /* background-color: darkcyan; */
+}
+
+.hobbys_content_section3 {
+    grid-area: hobbys_content_section3;
+    margin-bottom: 64px;
+
+    /* background-color: darkgoldenrod; */
+}
+
+.hobbys_content_section4 {
+    grid-area: hobbys_content_section4;
+    margin-bottom: 8px;
+
+    /* background-color: darkgreen; */
+}
+
+.hobbys_content_section5 {
+    grid-area: hobbys_content_section5;
+    margin-bottom: 8px;
+
+    /* background-color: darkmagenta; */
+}
+
+.hobbys_content_section6 {
+    grid-area: hobbys_content_section6;
+
+    /* background-color: darkred; */
+}
+
+.muziek {
+    grid-area: muziek;
+    margin-top: 40px;
+
+    /* background-color: darkgray; */
+}
+
+.inleiding_img {
+    position: relative;
+    width: 240px;
+    height: auto;
+    rotate: 2deg;
+    padding: 16px;
+}
+
+.inleiding_img .inleiding_img_img {
+    border-radius: 32px;
+}
+
+.inleiding_img .inleiding_img_frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hobbys_img_1 {
+    position: relative;
+    width: 180px;
+    padding: 8px;
+    margin-left: 8px;
+    rotate: -4deg;
+}
+
+.hobbys_img_1 .hobbys_img_1_img {
+    border-radius: 16px;
+}
+
+.hobbys_img_1 .hobbys_img_1_frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hobbys_img_2 {
+    width: 180px;
+    padding: 16px;
+    margin-left: 40px;
+    rotate: 5deg;
+}
+
+.hobbys_img_2 .hobbys_img_2_img {
+    border-radius: 16px;
+}
+
+.hobbys_img_2 .hobbys_img_2_frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+table {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: "Indie Flower", cursive;
+}
+
+caption {
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.artist {
+    color: var(--primary-color);
+}
+
+th {
+    padding: 4px 0;
+    font-size: 18px;
+    color: var(--neutral-color01);
+    transform: skewX(-10deg);
+    background-color: var(--secondary-color02);
+}
+
+td {
+    padding: 8px 16px;
+    border-bottom: 1px dashed var(--secondary-color03);
+    border-collapse: collapse;
+}
