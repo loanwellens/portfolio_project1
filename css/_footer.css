@@ -29,12 +29,12 @@ footer .socials a svg {
 
 .socials a:nth-child(1) svg:hover {
     transition: ease-in-out 0.2s;
-    fill: var(--secondary-color01);
+    fill: var(--secondary-color03);
 }
 
 .socials a:nth-child(2) svg:hover {
     transition: ease-in-out 0.2s;
-    fill: var(--secondary-color03);
+    fill: var(--secondary-color01);
 }
 
 .socials a:nth-child(3) svg:hover {
