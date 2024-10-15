@@ -36,13 +36,13 @@ svg {
     list-style-image: url("../assets/svg/list_style_type.svg");
 }
 
-.content_sidenav_ a li {
+.content_sidenav_ li a {
     color: var(--primary-color);
     padding-left: 16px;
     margin: 8px 0;
 }
 
-.content_sidenav_ a li:hover {
+.content_sidenav_ li:hover a {
     transition: ease-in 0.2s;
     color: var(--secondary-color01);
 }
